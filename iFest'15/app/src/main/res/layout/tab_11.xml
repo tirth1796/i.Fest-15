@@ -1,0 +1,68 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="10"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView7"
+                android:layout_gravity="top"
+                android:layout_weight="11"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/clip"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/ll"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:paddingTop="2dp"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:textColor="#212121"
+                    android:lineSpacingExtra="5dp"
+                    android:paddingLeft="5dp"
+                    android:linksClickable="true"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:id="@+id/textView" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

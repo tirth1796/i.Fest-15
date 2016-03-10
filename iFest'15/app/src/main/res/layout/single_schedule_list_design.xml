@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffffff"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="3dp"
+        android:layout_height="70dp"
+        android:background="#ff0085eb"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/view"
+        android:fontFamily="times"
+        android:text="i.Ganith"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#d9353535"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:id="@+id/textDescription"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Description of the event"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignLeft="@+id/textName"
+        android:layout_alignStart="@+id/textName"
+        android:textColor="#ff878787"/>
+
+    <TextView
+        android:textColor="#9ab0b0b0"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:text="TIME 6PM"
+        android:textSize="12sp"
+        android:layout_alignBaseline="@+id/textName"
+        android:layout_alignBottom="@+id/textName"
+        android:layout_alignRight="@+id/textDescription"
+        android:layout_alignEnd="@+id/textDescription" />
+
+    <TextView
+        android:textColor="#9ab0b0b0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:text="VENUE LAB"
+        android:textSize="12sp"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textDescription"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
